@@ -249,7 +249,6 @@ def save_position(corners_s: tuple, ids_s: npt.NDArray[float]) -> None:
 
 
 if __name__ == "__main__":
-
     # Подключение каммеры
     camera = Camera(ip='127.0.0.1', port=18000)
 
