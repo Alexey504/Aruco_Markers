@@ -305,27 +305,6 @@ if __name__ == "__main__":
         cv2.imshow("video", frame)
 
         if cv2.waitKey(1) == 27:
-            # dict_fact = {
-            #     199: [-1.0, 1.79], 203: [3.17, 1.41], 207: [3.39, 0.57],
-            #     196: [2.45, -2.89], 195: [2.05, -3.65], 201: [-3.45, -3.31],
-            #     197: [-4.22, -2.74], 198: [-4.71, 2.37], 200: [-4.3, 3.02],
-            #     }
-            # print(dict_aruco_pos)
-            # print(ids_markers)
-            # df = pd.DataFrame(data=dict_aruco_pos, index=['detect'])
-            # df = df.T
-            # df['fact'] = dict_fact
-            # df['diff_X'] = df['fact'].apply(lambda x: x[0]) - df['detect'].apply(lambda x: x[0])
-            # df['diff_Y'] = df['fact'].apply(lambda x: x[1]) - df['detect'].apply(lambda x: x[1])
-            #
-            # print(df)
-            # d_elements = np.array(df['detect'])
-            # f_elements = np.array(df['fact'])
-            # # Вычисляем стандартное отклонение разности элементов
-            # s_diviation_X = np.std(df['diff_X'])
-            # s_diviation_Y = np.std(df['diff_Y'])
-            # print('std_diff_x: ', s_diviation_X, 'std_diff_y: ', s_diviation_Y)
-            # df.to_excel('dict1.xlsx')
             break
 
     cv2.destroyAllWindows()  # Close all opened openCV windows
