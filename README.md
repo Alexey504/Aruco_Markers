@@ -12,6 +12,8 @@ pip install git+https://github.com/Alexey504/Aruco_Markers
 
 # Пример
 
+> Для заданий 1, 2 и 3 есть версии для запуска на арене с приставкой _arena. 
+
 ## 1) Считывание Qr-кодов (qr_reader.py)
 
 ![qr_arena-_online-video-cutter com_](https://github.com/user-attachments/assets/2d9438a9-0177-4c8e-985b-ffe9c54d0a6f)
